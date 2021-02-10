@@ -1,7 +1,9 @@
 #include "holberton.h"
 
 /**
- * program that prints Holberton, followed by a new line.
+ * main - program that prints Holberton
+ *
+ *Return: int
  */
 
 int main(void)
@@ -13,6 +15,6 @@ while (h < 9)
 _putchar(sch[h]);
 h += 1;
 }
-_putchar('\n');
+_putchar('\n');/*prints new line*/
 return (0);
 }
