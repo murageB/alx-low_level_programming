@@ -17,9 +17,15 @@ void print_alphabet(void);
  * print p10x the alphabet in lowercase
  */
 void print_alphabet_x10(void);
+
 /**
  *checks for lower character.
  */
 int _islower(int c);
+
+/**
+ *check for alphabetic character.
+ */
+int _isalpha(int c);
 
 #endif
