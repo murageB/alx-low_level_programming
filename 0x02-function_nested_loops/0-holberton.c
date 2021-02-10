@@ -1,15 +1,19 @@
-#include <stdio.h>
+#include "holberton.h"
 
-int main()
+/**
+ * program that prints Holberton, followed by a new line.
+ */
+
+int main(void)
 {
-  int h =0;
-  char my_sch[9]= "Holberton";
+  int h = 0;
+  char sch[9] = "Holberton";
   
   while (h < 9)
     {
-      putchar(my_sch[h]);
+      _putchar(sch[h]);
       h += 1;
     }
-  putchar('\n');
+  _putchar('\n');
   return (0);
 }
