@@ -17,7 +17,7 @@ y = 0;
 _putchar('0');
 for (y = 1; y <= 9; y++)
 {
- if((x * y) <= 9)
+if ((x * y) <= 9)
 {
 _putchar(',');
 _putchar(' ');
