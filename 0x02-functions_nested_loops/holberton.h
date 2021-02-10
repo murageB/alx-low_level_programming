@@ -48,5 +48,10 @@ int print_last_digit(int d);
  */
 void jack_bauer(void);
 
+/**
+ *prints the 9 times table.
+ */
+void times_table(void);
+
 
 #endif
