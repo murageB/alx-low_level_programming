@@ -18,7 +18,7 @@ for (b = 0; b <= n; b++)
 {
 if (a == b)
 {
-_putchar(92);
+_putchar('\\');
 }
 else
 {
