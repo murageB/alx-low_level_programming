@@ -46,5 +46,15 @@ void print_line(int n);
  */
 void print_diagonal(int n);
 
+/**
+ *prints a square.
+ */
+void print_square(int size);
+
+/**
+ *prints a triangle.
+ */
+void print_triangle(int size);
+
 
 #endif
