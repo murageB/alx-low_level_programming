@@ -22,14 +22,14 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 
 /**
-*prints a string to stdout.
-*/
+ *prints a string to stdout.
+ */
 void _puts(char *str); 
 
 /**
- *print numbers, from 0 to 9 but omits 2 and 4.
+ *prints a string, in reverse.
  */
-void print_most_numbers(void);
+void print_rev(char *s);
 
 /**
  *prints 10 times the number 0 to 14.
