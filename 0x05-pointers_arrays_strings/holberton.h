@@ -12,9 +12,9 @@ int _putchar(char c);
 void reset_to_98(int *n);
 
 /**
- *checks for a digit(0 through 9).
+ *swaps the value of two integers'
  */
-int _isdigit(int c);
+void swap_int(int *a, int *b);
 
 /**
  *multiplies two integers.
