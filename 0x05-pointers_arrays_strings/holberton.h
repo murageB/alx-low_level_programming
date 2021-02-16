@@ -22,9 +22,9 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 
 /**
-*print the numbers, from 0 to 9.
+*prints a string to stdout.
 */
-void print_numbers(void); 
+void _puts(char *str); 
 
 /**
  *print numbers, from 0 to 9 but omits 2 and 4.
