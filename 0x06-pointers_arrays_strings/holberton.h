@@ -2,9 +2,16 @@
 #define HOLBERTON_H
 
 /**
- *_strcat - concentrates two strings
+ *_strcat - concatenates two strings
  */
 
 char *_strcat(char *dest, char *src);
+
+/**
+ *_strncat - concatenates two srings wil at most n bytes for source
+ */
+char *_strncat(char *dest, char *src, int n);
+
+
 
 #endif
