@@ -24,8 +24,7 @@ int _strcmp(char *s1, char *s2);
 
 /**
  *reverse_array - reverses the content of an array of integers
- *@n: number of of elements to swap.
  */
-void reverse_array(int *a, int n)
+void reverse_array(int *a, int n);
 
 #endif
