@@ -1,0 +1,27 @@
+#include "holberton.h"
+
+/**
+ *_strpbrk-locates the first occurrence of any of the bytes from *accept in *s
+ *@s: string to be scanned
+ *@accept: string of character needed to be located
+ *
+ *Return: pointer to the byte in s that matches one of the bytes in accept
+ */
+
+char *_strpbrk(char *s, char *accept)
+{
+char *a;
+
+while (*s != '\0')
+{
+a = accept;
+while (*a != '\0')
+{
+if (*a++ == *s)
+
+return (s);
+}
+++s;
+}
+return ("");
+}
