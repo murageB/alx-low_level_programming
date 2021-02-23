@@ -4,7 +4,7 @@
 /**
  *_memset - fills memory with constant byte.
  */
-char *_memset(char *s, char *b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n);
 
 /**
  *_memcpy - copies memory area.
