@@ -2,24 +2,34 @@
 
 /**
  *_strchr-locates a character in a string
- *@s: pointer to the first occurrence of the character c
- *@c: character
+ *@s: string to be checked
+ *@c: character to be located
  *
  *Return: s if the character if found or NULL if the character is not found
  */
 
 char *_strchr(char *s, char c)
 {
-while (*s != c && *s != '\0')
+unsigned int i, len;
+char *found;
+
+found = 0;
+i = 0;
+len = 0;
+
+while (*(s + i) != '\0')
+len++;
+while (i <= len)
 {
-s++;
-}
-if (*s == c)
+if (*(s + i) == c)
 {
-return (s);
+found = s + i;
+break;
 }
+i++;
+}
+if (found)
+return (found);
 else
-{
-return ("");
-}
+return (0);
 }
