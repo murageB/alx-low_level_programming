@@ -2,8 +2,8 @@
 
 /**
  *_strchr-locates a character in a string
- *@s: pointer to the first occurrence of the character c 
- *@c: character 
+ *@s: pointer to the first occurrence of the character c
+ *@c: character
  *
  *Return: s if the character if found or NULL if the character is not found
  */
@@ -18,9 +18,8 @@ if (*s == c)
 {
 return (s);
 }
-else 
+else
 {
 return ("");
 }
 }
- 
