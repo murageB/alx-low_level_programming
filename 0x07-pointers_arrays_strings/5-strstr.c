@@ -3,7 +3,7 @@
 /**
  *_strstr-locates a string
  *@haystack: string to checked
- *@needle: substring to be checked for
+ *@needle: substring to be checked in haystack
  *
  *Return: a pointer to the beginning of the located substring
  */
