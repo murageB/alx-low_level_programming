@@ -10,26 +10,11 @@
 
 char *_strchr(char *s, char c)
 {
-unsigned int i, len;
-char *found;
+int i;
 
-found = 0;
-i = 0;
-len = 0;
+for (i = 0; s[i] != '\0'; i++)
 
-while (*(s + i) != '\0')
-len++;
-while (i <= len)
-{
-if (*(s + i) == c)
-{
-found = s + i;
-break;
-}
-i++;
-}
-if (found)
-return (found);
-else
+if (s[i] == c)
+return ((s + i));
 return (0);
 }
