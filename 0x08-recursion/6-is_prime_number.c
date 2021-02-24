@@ -16,7 +16,7 @@ else if (num % count == 0)
 return (0);
 else if (count >= num / 2)
 return (1);
-return (pnum (num, count + 1));
+return (pnum(num, count + 1));
 }
 
 /**
