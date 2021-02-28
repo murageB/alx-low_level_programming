@@ -47,9 +47,9 @@ int _strlen(char *s);
 void _puts(char *str);
 
 /**
- *_strcpy
+ *_strcpy-copies string
  */
-char *_strcpy(char*dest, char *src);
+char *_strcpy(char *dest, char *src);
 
 /**
  *_atoi
