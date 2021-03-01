@@ -25,7 +25,7 @@ int _abs(int);
  *checks for uppercase.
  */
 int _isuppper(int c);
- 
+
 /**
  *checks for a digit(0 through 9).
  */
