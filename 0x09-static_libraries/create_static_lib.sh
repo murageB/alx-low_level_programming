@@ -1,5 +1,4 @@
-#ifndef CREATE_STATIC_LIB_SH
-#define CREATE_STATIC_LIB_SH
+#!/bin/bash
 
 gcc -c -Wall -Werror -Wextra *.c
 
