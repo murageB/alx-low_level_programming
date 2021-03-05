@@ -22,6 +22,8 @@ return (NULL);
 else
 {
 c = malloc(nmemb * size);
+if (c == NULL)
+return (c);
 for (i = 0; i < (nmemb * size); i++)
 {
 c[i] = '\0';
