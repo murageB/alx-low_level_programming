@@ -26,6 +26,6 @@ for (i = 0; i < (nmemb * size); i++)
 {
 c[i] = '\0';
 }
-return (p);
+return (c);
 }
 }
