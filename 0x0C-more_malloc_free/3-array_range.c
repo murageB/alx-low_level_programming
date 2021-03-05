@@ -16,11 +16,12 @@ unsigned int range, i;
 int *rng;
 if (min > max)
 return (NULL);
-range = (max - min) + 1;
+range = max - min;
 rng = malloc(sizeof(int) * (range + 1));
 if (rng == NULL)
 return (NULL);
 for (i = 0; i < range; i++)
 rng[i] = i + min;
+rng[range] = max;
 return (rng);
 }
