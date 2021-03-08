@@ -24,10 +24,7 @@ for (i = 0; name[i] != '\0'; i++)
 {
 dg->name = malloc(sizeof(char) * i);
 if (dg->name == NULL)
-{
-free(dg);
 return (NULL);
-}
 for (count = 0; count < i; count++)
 dg->name[count] = name[count];
 }
@@ -36,11 +33,7 @@ for (j = 0; owner[j] != '\0'; j++)
 {
 dg->owner = malloc(sizeof(char) * j);
 if (dg->owner == NULL)
-{
-free(dg->name);
-free(dg);
 return (NULL);
-}
 for (count = 0; count < j; count++)
 dg->owner[count] = owner[count];
 }
