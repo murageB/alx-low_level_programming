@@ -21,7 +21,7 @@ lenA = 0;
 while (name[lenA] != '\0')
 lenA++;
 lenB = 0;
-while (owner[lenB] !='\0')
+while (owner[lenB] != '\0')
 lenB++;
 
 dg = malloc(sizeof(dog_t));
