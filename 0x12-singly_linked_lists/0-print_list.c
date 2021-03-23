@@ -6,7 +6,7 @@
 /**
  * print_list - prints all the elements of a list_t list
  * @h: pointer to len
- * 
+ *
  * Return: len
  */
 
