@@ -12,14 +12,13 @@
 
 void free_list(list_t *head)
 {
-size_t nodes = 0;
+list_t *next;
 
-if (h != NULL)
-return (0);
-while (h != NULL)
+while (head != NULL)
 {
-nodes++;
-h = h->next;
+next = head->next;
+free(head->str);
+free(head);
+head = next;
 }
-return (nodes);
 }
