@@ -33,5 +33,5 @@ if (wr == -1 || wr != rd)
 return (0);
 close(fd);
 free(buf);
-return(wr);
+return (wr);
 }
