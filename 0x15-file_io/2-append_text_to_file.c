@@ -18,7 +18,7 @@ int fd;
 int text, i = 0;
 
 if (filename == NULL)
-return (0);
+return (-1);
 fd = open(filename, O_APPEND | O_WRONLY);
 if (fd == -1)
 return (-1);
