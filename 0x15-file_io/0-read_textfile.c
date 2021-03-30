@@ -21,7 +21,7 @@ if (filename == NULL)
 return (0);
 fd = open(filename, O_RDONLY);
 if (fd == -1)
-return(0);
+return (0);
 buf = malloc(letters);
 if (buf == NULL)
 return (0);
@@ -33,5 +33,5 @@ if (wr == -1 || wr != rd)
 return (0);
 close(fd);
 free(buf);
-return(wr);
+return (wr);
 }
