@@ -24,7 +24,7 @@ return (NULL);
 new_node->n = n;
 (*head) = new_node;
 
-if(new_node == NULL)
+if (new_node == NULL)
 new_node->next = NULL;
 else
 new_node->next = current;
