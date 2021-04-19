@@ -16,13 +16,13 @@ listint_t *temp, *new_end_node;
 
 new_end_node = malloc(sizeof(listint_t));
 
-if(!new_end_node)
+if (!new_end_node)
 return (NULL);
 
 new_end_node->n = n;
 new_end_node->next = NULL;
 
-if(!*head)
+if (!*head)
 *head = new_end_node;
 else
 {
