@@ -16,9 +16,9 @@ else
 {
 while (temp != NULL)
 {
-temp = head;
-head = temp->next;
-free(temp);
+temp = head-next;
+free(head);
+head = temp;
 }
 }
 }
