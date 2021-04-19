@@ -14,7 +14,7 @@ if (head == NULL)
 return;
 while (temp != NULL)
 {
-temp = head-next;
+temp = head->next;
 free(head);
 head = temp;
 }
