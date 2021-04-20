@@ -18,6 +18,7 @@ if (head == NULL)
 return (NULL);
 
 new_node = (listint_t *)(malloc(sizeof(listint_t)));
+new_node->next = NULL;
 
 if (new_node == NULL)
 return (NULL);
