@@ -26,7 +26,6 @@ if (idx == 0)
 {
 new_node->next = *head;
 *head = new_node;
-return (new_node);
 }
 else
 {
@@ -34,13 +33,13 @@ temp = *head;
 count = 0;
 while (count < (idx - 1))
 {
-temp = temp->next;
-count++;
 if (temp == NULL)
 {
 free(new_node);
 return (NULL);
 }
+temp = temp->next;
+count++;
 }
 new_node->next = temp->next;
 temp->next = new_node;
