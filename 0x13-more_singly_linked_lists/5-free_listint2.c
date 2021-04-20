@@ -15,11 +15,12 @@ if (head == NULL || *head == NULL)
 return;
 else
 {
-while (current_node != NULL)
+while (head != NULL)
 {
-current_node = *head;
-*head = current_node->next;
-free(current_node);
+current_node = (*head)->next;
+free(*head);
+*head = current_node;
 }
+*head = NULL;
 }
 }
