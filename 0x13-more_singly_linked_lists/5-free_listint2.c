@@ -15,7 +15,7 @@ if (head == NULL || *head == NULL)
 return;
 else
 {
-while (head != NULL)
+while (*head != NULL)
 {
 current_node = (*head)->next;
 free(*head);
