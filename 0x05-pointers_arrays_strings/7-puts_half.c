@@ -26,7 +26,7 @@ _putchar(str[i]);
 else
 {
 half = (c - 1) / 2;
-for (i = mid + 1; i < c; i++)
+for (i = half + 1; i < c; i++)
 {
 _putchar(str[i]);
 }
